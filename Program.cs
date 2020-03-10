@@ -47,14 +47,6 @@ namespace MethodsMakeupV36
                     Console.WriteLine("Enter an integer between 3 and 6");
                 }
             }
-
-            
-
-
-
-
-
-            //while (int.TryParse(Console.ReadLine(), out num1)) ;
         }
     }
 }
