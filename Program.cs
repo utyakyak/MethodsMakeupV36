@@ -4,7 +4,7 @@ namespace MethodsMakeupV36
 {
     class Program
     {
-        static void CreateCopies(string UserPhrase, int UserNumber, string separator)
+        static void CopyThis(string UserPhrase, int UserNumber, string separator)
         {
             int i;
             if (UserNumber >= 3 && UserNumber <= 6)
@@ -40,7 +40,7 @@ namespace MethodsMakeupV36
                 if (UserNumber >= 3 && UserNumber <= 6)
                 {
                     valid = true;
-                    CreateCopies(UserPhrase, UserNumber, separator);
+                    CopyThis(UserPhrase, UserNumber, separator);
                 }
                 else
                 {
