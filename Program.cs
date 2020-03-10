@@ -36,10 +36,10 @@ namespace MethodsMakeupV36
             {
                 if (int.TryParse(Console.ReadLine(), out UserNumber))
                 {
-                    valid = true;
                 }
                 if (UserNumber >= 3 && UserNumber <= 6)
                 {
+                    valid = true;
                     CreateCopies(UserPhrase, UserNumber, separator);
                 }
                 else
